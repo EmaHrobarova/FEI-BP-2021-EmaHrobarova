@@ -224,7 +224,7 @@ void MainWindow::on_loginButton_clicked()
             this->fingerprints.push_back(fingerprint);
             fingerprint.clear();
     }
-    this->m.setMatcher(MATCHER::suprema);
+    this->m.setMatcher(MATCHER::bozorth3);
     m.verify(this->dbLogin, this->fingerprints);
 }
 

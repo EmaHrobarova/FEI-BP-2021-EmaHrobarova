@@ -335,7 +335,7 @@
          <string>Extraction - level2chars</string>
         </property>
        </widget>
-       <widget class="QWidget" name="">
+       <widget class="QWidget" name="layoutWidget">
         <property name="geometry">
          <rect>
           <x>0</x>
@@ -396,6 +396,9 @@
              <width>270</width>
              <height>460</height>
             </size>
+           </property>
+           <property name="mouseTracking">
+            <bool>true</bool>
            </property>
            <property name="text">
             <string/>
